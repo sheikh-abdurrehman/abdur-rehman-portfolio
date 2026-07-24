@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { SiteLayout, CTASection } from "@/components/site/Layout";
-import { PROJECTS } from "@/components/site/data";
+import { PROJECTS, type Project } from "@/components/site/data";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/portfolio/$slug")({
@@ -30,8 +30,8 @@ export const Route = createFileRoute("/portfolio/$slug")({
 });
 
 function ProjectPage() {
-  const { project } = Route.useLoaderData();
-  const p = project!;
+  const data = Route.useLoaderData() as { project: Project };
+  const p = data.project;
   const idx = PROJECTS.findIndex((x) => x.slug === p.slug);
   const next = PROJECTS[(idx + 1) % PROJECTS.length];
 
