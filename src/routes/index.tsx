@@ -7,17 +7,17 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Studio Sera — Shopify Development & CRO for Premium Brands" },
+      { title: "Shopify Development & CRO for Premium Brands" },
       {
         name: "description",
         content:
           "Independent Shopify Plus practice building bespoke storefronts, headless Hydrogen sites, and CRO programs for high-end international DTC brands.",
       },
-      { property: "og:title", content: "Studio Sera — Shopify Development for Premium Brands" },
+      { property: "og:title", content: "Shopify Development & CRO for Premium Brands" },
       {
         property: "og:description",
         content:
-          "Bespoke Shopify Plus, Hydrogen, and CRO for premium DTC brands. Built to convert, made to last.",
+          "Independent Shopify Plus practice building bespoke storefronts, headless Hydrogen sites, and CRO programs for high-end international DTC brands.",
       },
       { property: "og:url", content: "/" },
     ],

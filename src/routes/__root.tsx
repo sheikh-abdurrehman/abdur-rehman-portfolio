@@ -77,16 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Studio Sera — Shopify Development & CRO for Premium Brands" },
+      { title: "Shopify Development & CRO for Premium Brands" },
       {
         name: "description",
         content:
-          "Independent Shopify Plus development, headless Hydrogen builds, and CRO for premium international DTC brands.",
+          "Independent Shopify Plus practice building bespoke storefronts, headless Hydrogen sites, and CRO programs for high-end international DTC brands.",
       },
       { name: "author", content: "Studio Sera" },
       { property: "og:site_name", content: "Studio Sera" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Shopify Development & CRO for Premium Brands" },
+      { name: "twitter:title", content: "Shopify Development & CRO for Premium Brands" },
+      { property: "og:description", content: "Independent Shopify Plus practice building bespoke storefronts, headless Hydrogen sites, and CRO programs for high-end international DTC brands." },
+      { name: "twitter:description", content: "Independent Shopify Plus practice building bespoke storefronts, headless Hydrogen sites, and CRO programs for high-end international DTC brands." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fabe7506-db3f-4c73-a6b0-11e7bdc96a8c/id-preview-d6a510e8--2c0234a3-35eb-4894-b9f2-b43dcbdf9905.lovable.app-1784873287958.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fabe7506-db3f-4c73-a6b0-11e7bdc96a8c/id-preview-d6a510e8--2c0234a3-35eb-4894-b9f2-b43dcbdf9905.lovable.app-1784873287958.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
