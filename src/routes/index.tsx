@@ -103,7 +103,7 @@ for Modern Brands.
 </h1>
 
 <p className="mt-8 text-lg md:text-xl text-white/75 max-w-xl leading-8">
- I build fast, scalable, and conversion-focused Shopify stores with clean code, responsive design, and exceptional user experience.
+ I build responsive Shopify stores with clean code, thoughtful UX, and conversion-focused design principles
 </p>
 </div>
 
