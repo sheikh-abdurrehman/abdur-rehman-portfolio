@@ -70,15 +70,15 @@ function Home() {
 
 function Hero() {
   return (
-    <section
- className="relative overflow-hidden bg-cover bg-right bg-no-repeat"
+<section
+  className="relative overflow-hidden bg-cover bg-[72%_center] md:bg-right bg-no-repeat"
   style={{
     backgroundImage: "url('/abdur-profile.png')",
   }}
 >
    
     <div className="absolute inset-0 bg-black/45" />
-  <div className="container-x relative z-10 min-h-screen flex flex-col justify-center pt-16 pb-20 lg:pl-8">
+<div className="container-x relative z-10 min-h-screen flex flex-col justify-center pt-20 pb-16 lg:pt-16 lg:pb-20 lg:pl-8">
 
         
         <div className="flex items-center gap-3 animate-rise">
@@ -86,7 +86,7 @@ function Hero() {
   
         </div>
 
-    <div className="mt-6 max-w-lg animate-rise">
+<div className="mt-6 max-w-lg animate-rise relative z-20">
 <p className="text-sm
 tracking-[0.35em]
 uppercase
@@ -94,7 +94,7 @@ font-medium
 text-primary">
   SHOPIFY DEVELOPER • ECOMMERCE SPECIALIST
 </p>
-<h1 className="mt-8 font-display text-4xl md:text-6xl lg:text-[5.5rem]leading-[0.95] tracking-tight text-white max-w-3xl">
+<h1 className="mt-8 font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] leading-[0.95] tracking-tight text-white max-w-3xl">
 Custom Shopify
 <br />
 <span className="gold-text italic">Development</span>
@@ -102,8 +102,8 @@ Custom Shopify
 for Modern Brands.
 </h1>
 
-<p className="mt-8 text-lg md:text-xl text-white/75 max-w-xl leading-8">
- I build responsive Shopify stores with clean code, thoughtful UX, and conversion-focused design principles
+<p className="mt-8 text-base sm:text-lg md:text-xl text-white/75 max-w-xl leading-8">
+ I build fast, scalable, and conversion-focused Shopify stores with clean code, responsive design, and exceptional user experience.
 </p>
 </div>
 
@@ -114,7 +114,7 @@ for Modern Brands.
 </div>
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 border-t border-border pt-10">
           {[
-            { k: "5+", v: "Concept Projects" },
+            { k: "6", v: "Shopify Concept Builds" },
             { k: "100%", v: "Responsive Design" },
             { k: "Performance", v: "Optimized Code" },
             { k: "Continuous", v: "Learning" },
